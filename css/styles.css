@@ -1,15 +1,15 @@
 body {
-   font-family: "Roboto", sans-serif;
-   letter-spacing: 0.02em;
-   background-color: #fff;
-   color: #434455;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.02em;
+  background-color: #fff;
+  color: #434455;
 }
 
 ul, ol {
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 
 h1, h2, h3, p {
@@ -62,7 +62,7 @@ address {
 }
 
 .header-logo .logo-part{
-color: #2e2f42;
+  color: #2e2f42;
 }
 
 .menu {
@@ -204,8 +204,6 @@ color: #2e2f42;
 .team {
   background-color: #F4F4FD;
   padding: 120px 0;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  background-color: #fff;
 }
 
 .team .list-item {
@@ -215,6 +213,8 @@ color: #2e2f42;
 
 .name-cards {
   padding: 32px 0px;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+  background-color: #fff;
 }
 
 .portfolio {
@@ -240,26 +240,24 @@ color: #2e2f42;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  
 }
 
 .page-footer {
-background-color: #2e2f42;
-padding: 100px 0px;
+  background-color: #2e2f42;
+  padding: 100px 0px;
 }
 
 .footer-logo {
-display: inline-block;
-margin: 16px;
+  display: inline-block;
+  margin: 16px;
 }
 
 .footer-logo .logo-part {
-color: #f4f4fd;
+  color: #f4f4fd;
 }
 
 .footer-text {
-line-height: 1.5;
-color: #f4f4fd;
-max-width: 264px;
-
+  line-height: 1.5;
+  color: #f4f4fd;
+  max-width: 264px;
 }

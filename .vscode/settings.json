@@ -7,5 +7,8 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": false,
   "editor.fontSize": 16,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "terminal.integrated.focusAfterRun": "terminal"
+  "terminal.integrated.focusAfterRun": "terminal",
+  "cSpell.words": [
+    "colum"
+  ]
 }

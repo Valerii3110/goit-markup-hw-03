@@ -46,7 +46,6 @@ address {
 
 .header-nav {
   display: flex;
-  padding: 24px 0;
   align-items: center;
 }
 
@@ -72,11 +71,11 @@ address {
 
 .menu-link {
   font-weight: 500;
-  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding: 24px 0;
+  display: inline-block;
+  padding: 24px 0px;
 }
 
 .menu-link:hover,
@@ -92,16 +91,30 @@ address {
 }
 
 .contacts-link {
-  font-weight: 400;
   line-height: 1.5;
-  color:#434455;
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+  letter-spacing: 0.02em;
+  color: #434455;
   align-items: center;
 }
 
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  }
+
+.hero-flex {
+  display: flex;
+  flex-direction: colum;
+  align-items: center; 
+  justify-content: space-between;
+  height: 100%;
+  /* padding-top: 188px;
+  padding-bottom: 188px; */
 }
 
 .page-title {
@@ -112,8 +125,8 @@ address {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
-  margin: auto;
-}
+  margin-bottom: 48px;
+  }
 
 .button {
   font-weight: 500;
@@ -123,15 +136,16 @@ address {
   background-color: #4d5ae5;
   color:#ffffff;
   cursor: pointer;
-  display: block;
   min-width: 169px;
   height: 56px;
+  display: block;
   border: none;
   border-radius: 4px;
   padding: 16px 32px;
-  margin: 48px auto;
+  margin-left: auto;
+  margin-right: auto; 
 }
-
+ 
 .button:hover, .button:focus {
   background-color: #404BBF
 }
@@ -140,7 +154,8 @@ address {
 } 
 
 .page {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
     
 .section-title {
@@ -151,7 +166,6 @@ address {
   text-align: center;
   text-transform: capitalize;
   color:#2e2f42;
-  padding-top: 120px;
   margin-bottom: 72px;
 }
 
@@ -170,10 +184,9 @@ address {
 
 .list {
   display: flex;
-  justify-self: star;
+  justify-self: flex-start;
   align-items: center;
   gap: 24px;
-  margin-bottom: 120px;
 }
 
 .page .list-item {
@@ -249,7 +262,8 @@ address {
 
 .footer-logo {
   display: inline-block;
-  margin: 16px;
+  margin-right: 0px;
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
